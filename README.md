@@ -28,7 +28,7 @@ Usage
 	Command-line running:
 		- usage:
 		1. create a file named start.command and input following commands:
-		matlab ¨Cr "cd LSPRpackagePath; LSPR('inputFilename.txt','outputFilename.txt','inputPath','outputPath',defaultPeriod,lower,upper)"
+		matlab ï¿½Cr "cd LSPRpackagePath; LSPR('inputFilename.txt','outputFilename.txt','inputPath','outputPath',defaultPeriod,lower,upper)"
 		- explanation of input variables:
 			inputFilename          - input text file name
 			outputFilename         - output text file name
@@ -86,7 +86,7 @@ Input/Output File
 			R square        - R square of regression curve
 			pvalue          - p-value in harmonic analysis
 			qvalue          - false discovery rate computed by q-value method
-			FDR-BH          - false discovery rate computed by Benjamini¨CHochberg method
+			FDR-BH          - false discovery rate computed by Benjaminiï¿½CHochberg method
 FAQ
 ===
 
@@ -114,7 +114,7 @@ FAQ
 	
 	3. How are periodic genes determined?
 		For a single input gene expression profile, periodicity can be determined by p-value. Usually, a gene with p-value < 0.05 is considered to be periodic.
-		For large-scale microarray data, periodic genes could be determined by the false discovery rate (q-value or FDR-BH value), instead. Generally, the Benjamini¨CHochberg method (FDR-BH) is more stringent than the q-value method to evaluate the false discovery rate .
+		For large-scale microarray data, periodic genes could be determined by the false discovery rate (q-value or FDR-BH value), instead. Generally, the Benjaminiï¿½CHochberg method (FDR-BH) is more stringent than the q-value method to evaluate the false discovery rate .
 	
 	4. How are genes whose output parameters are "NaN" values dealt with?
 		Genes with missing values for more than 50% of sampling time points, or that fit linear (i.e. y = x+c) or constant expressions (i.e. y = c), will be assigned "NaNs" in the output parameters.
@@ -124,15 +124,7 @@ FAQ
 		Ideally, at least six time points for the input time-series according to our analysis (see Supplemental information) and there is no upper limit for the length.
 		LSPR analyzes one time-series at a time. If the user's computer has enough computing capacity, there will be no limitations for how many genes LSPR can handle at a time.
 
-Contact
 
-Please contact us if you have suggestions for improvement, or if you have any problem with the program, or with the interpretation of the results.
-
-Rendong Yang	
-
-email: cauyrd@gmail.com
-
-Thanks!
 
 Web Site
 ========
@@ -140,4 +132,12 @@ http://bioinformatics.cau.edu.cn/LSPR
 
 Citation
 ========
-Rendong Yang, Chen Zhang, Zhen Su, LSPR: an integrated periodicity detection algorithm for unevenly sampled temporal microarray data Bioinformatics. 2011; doi:10.1093/bioinformatics/btr041. 
+Rendong Yang, Chen Zhang, Zhen Su, LSPR: an integrated periodicity detection algorithm for unevenly sampled temporal microarray data *Bioinformatics*. 2011; doi:10.1093/bioinformatics/btr041. 
+
+Contact
+=======
+Please contact us if you have suggestions for improvement, or if you have any problem with the program, or with the interpretation of the results.
+
+Rendong Yang	
+
+email: cauyrd@gmail.com
