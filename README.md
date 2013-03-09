@@ -1,7 +1,5 @@
 This matlab package is used to detect periodic expression profiles in DNA microarray time-series data.
 LSPR is a three step integrated algorithm, featuring high resolution of periodicity detection for evenly or unevenly sampled time-course data.
-	
-Copyright (c) 2010, Chen ZHANG and Rendong Yang
 
 Table of Contents
 =================
@@ -28,7 +26,7 @@ Usage
 	Command-line running:
 		- usage:
 		1. create a file named start.command and input following commands:
-		matlab �Cr "cd LSPRpackagePath; LSPR('inputFilename.txt','outputFilename.txt','inputPath','outputPath',defaultPeriod,lower,upper)"
+		matlab -r "cd LSPRpackagePath; LSPR('inputFilename.txt','outputFilename.txt','inputPath','outputPath',defaultPeriod,lower,upper)"
 		- explanation of input variables:
 			inputFilename          - input text file name
 			outputFilename         - output text file name
